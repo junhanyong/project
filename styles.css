@@ -14,10 +14,11 @@ body {
 }
 
 .name {
-    font-weight: 500;
     font-size: xx-large;
     color: white;
     letter-spacing: 1px;
+    height: 20px;       /* enough for your text */
+    min-height: 20px;   /* ensures it never collapses */
 }
 
 .svg-container {
