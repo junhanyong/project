@@ -42,3 +42,9 @@ path[title="Hiroshima"],
 path[title="Ehime"] {
     fill: #A3B18A!important;
 }
+
+/* Move Okinawa to right side */
+#JP-47 {
+    transform: translate(350px, -150px) scale(1.1);
+    transform-origin: center; /* controls the point around which the transform happens */
+}
