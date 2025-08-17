@@ -1,0 +1,44 @@
+body {
+    background-color: #ffd1dc;
+    font-family:'Roboto','Hiragino Sans','Meiryo','Hiragino Kaku Gothic ProN',sans-serif;
+}
+
+.title {
+    font-weight: bold;
+    font-size: xx-large;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:         
+        2px 2px 4px rgba(0,0,0,0.4),        /* subtle dark offset for depth */
+        0 0 15px rgba(255,182,193,0.7);     /* soft pink glow around text */
+}
+
+.svg-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#map path{
+    stroke: #666; /* Outlines */
+    fill: white;
+}
+
+path[title="Miyagi"],
+path[title="Yamagata"],
+path[title="Fukushima"],
+path[title="Ibaraki"],
+path[title="Tochigi"],
+path[title="Gunma"],
+path[title="Chiba"],
+path[title="Tokyo"],
+path[title="Kanagawa"],
+path[title="Niigata"],
+path[title="Nagano"],
+path[title="Kyoto"],
+path[title="Osaka"],
+path[title="Nara"],
+path[title="Hiroshima"],
+path[title="Ehime"] {
+    fill: #A3B18A!important;
+}
